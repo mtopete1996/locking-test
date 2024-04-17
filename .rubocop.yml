@@ -1,0 +1,10 @@
+AllCops:
+  SuggestExtensions: false
+  NewCops: enable
+  Exclude:
+    - bin/**/*
+    - config/**/*
+    - Rakefile
+
+Style/Documentation:
+  Enabled: false
